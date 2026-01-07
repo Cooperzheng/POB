@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding2>
+	<Mode mode="BUILD">
+		<Arg string="F:/Coding/POB/pob_chinese/Builds/Druid COC 自用.xml"/>
+		<Arg string="Druid COC 自用"/>
+	</Mode>
+	<Accounts tokenExpiry="nil"/>
+	<SharedItems/>
+	<Misc connectionProtocol="nil" showWarnings="true" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" POESESSID="" disableDevAutoSave="false" showAnimations="true" showAllItemAffixes="true" buildSortMode="NAME" dpiScaleOverridePercent="0" nodePowerTheme="RED/BLUE" showFlavourText="true" colorPositive="^x33FF77" invertSliderScrollDirection="false" notSupportedModTooltips="true" colorNegative="^xDD0022" slotOnlyTooltips="true" colorHighlight="^xFF0000" defaultItemAffixQuality="0.5" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," showTitlebarName="true" decimalSeparator="."/>
+</PathOfBuilding2>
