@@ -1,10 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding2>
 	<Mode mode="BUILD">
-		<Arg string="F:/Coding/POB/pob_chinese/Builds/Druid COC 自用.xml"/>
-		<Arg string="Druid COC 自用"/>
+		<Arg string="D:/Git/POB/pob_chinese/Builds/Druid COC PlantsAreBoring .xml"/>
+		<Arg string="Druid COC PlantsAreBoring "/>
 	</Mode>
 	<Accounts tokenExpiry="nil"/>
-	<SharedItems/>
-	<Misc connectionProtocol="nil" showWarnings="true" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" POESESSID="" disableDevAutoSave="false" showAnimations="true" showAllItemAffixes="true" buildSortMode="NAME" dpiScaleOverridePercent="0" nodePowerTheme="RED/BLUE" showFlavourText="true" colorPositive="^x33FF77" invertSliderScrollDirection="false" notSupportedModTooltips="true" colorNegative="^xDD0022" slotOnlyTooltips="true" colorHighlight="^xFF0000" defaultItemAffixQuality="0.5" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," showTitlebarName="true" decimalSeparator="."/>
+	<SharedItems>
+		<Item>
+			Rarity: RARE
+Bramble Branch
+Dueling Wand
+Unique ID: cd4164152f09b211f72d5a127870a44e6530483eeaf145a4da7d5b80b2af1094
+Item Level: 81
+Quality: 20
+Sockets: S S
+Rune: Hedgewitch Assandra&apos;s Rune of Wisdom
+Rune: Saqawal&apos;s Rune of the Sky
+LevelReq: 84
+Implicits: 6
+{enchant}{rune}+1 to Level of all Spell Skills
+{enchant}{rune}Gain 5% of Damage as Extra Damage of all Elements
+{enchant}{rune}Bonded: 12% chance when collecting an Elemental Infusion to gain an
+{enchant}{rune}additional Elemental Infusion of the same type
+{enchant}{rune}Bonded: Archon recovery period expires 30% faster
+Grants Skill: Level 19 Spellslinger
+{desecrated}34% increased Cast Speed
+Gain 24% of Damage as Extra Cold Damage
+Gain 32% of Damage as Extra Lightning Damage
+111% increased Spell Damage
++6 to Level of all Cold Spell Skills
+70% increased Critical Hit Chance for Spells
+		</Item>
+		<Item>
+			Rarity: RARE
+Dragon Thirst
+Dueling Wand
+Unique ID: dd62d16fe4a415de2102fd80e41b85ef89ccdaedb49d7e6d004e4e3280177433
+Item Level: 81
+Quality: 20
+Sockets: S S
+Rune: Hedgewitch Assandra&apos;s Rune of Wisdom
+Rune: Saqawal&apos;s Rune of the Sky
+LevelReq: 78
+Implicits: 6
+{enchant}{rune}+1 to Level of all Spell Skills
+{enchant}{rune}Gain 5% of Damage as Extra Damage of all Elements
+{enchant}{rune}Bonded: 12% chance when collecting an Elemental Infusion to gain an
+{enchant}{rune}additional Elemental Infusion of the same type
+{enchant}{rune}Bonded: Archon recovery period expires 30% faster
+Grants Skill: Level 18 Spellslinger
+{fractured}+5 to Level of all Cold Spell Skills
+{desecrated}89% increased Elemental Damage
+Gain 25% of Damage as Extra Fire Damage
+97% increased Spell Damage
+53% increased Critical Hit Chance for Spells
+23% increased Cast Speed
+Corrupted
+		</Item>
+		<Item>
+			Rarity: RARE
+New Item
+Dueling Wand
+Crafted: true
+Prefix: {range:0.824}SpellDamageGainedAsCold4
+Prefix: {range:1}SpellDamageGainedAsLightning6
+Prefix: {range:0.408}SpellDamageOnWeapon8_
+Suffix: {range:1}GlobalColdSpellGemsLevelWeapon5
+Suffix: {range:0.729}IncreasedCastSpeed7
+Suffix: {range:0.768}SpellCriticalStrikeChance6_
+Quality: 20
+Sockets: S S
+Rune: Saqawal&apos;s Rune of the Sky
+Rune: Hedgewitch Assandra&apos;s Rune of Wisdom
+LevelReq: 84
+Implicits: 6
+{enchant}{rune}+1 to Level of all Spell Skills
+{enchant}{rune}Bonded: 12% chance when collecting an Elemental Infusion to gain an
+{enchant}{rune}Bonded: additional Elemental Infusion of the same type
+{enchant}{rune}Bonded: Archon recovery period expires 30% faster
+{enchant}{rune}Gain 5% of Damage as Extra Damage of all Elements
+{range:0.951}Grants Skill: Level (1-20) Spellslinger
+Gain 24% of Damage as Extra Cold Damage
+Gain 30% of Damage as Extra Lightning Damage
+111% increased Spell Damage
++5 to Level of all Cold Spell Skills
+70% increased Critical Hit Chance for Spells
+34% increased Cast Speed
+		</Item>
+	</SharedItems>
+	<Misc showAllItemAffixes="true" buildSortMode="NAME" nodePowerTheme="RED/BLUE" invertSliderScrollDirection="false" colorPositive="^x33FF77" connectionProtocol="nil" colorNegative="^xDD0022" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" edgeSearchHighlight="true" thousandsSeparator="," disableDevAutoSave="false" decimalSeparator="." colorHighlight="^xFF0000" defaultItemAffixQuality="0.5" showTitlebarName="true" dpiScaleOverridePercent="0" showWarnings="true" slotOnlyTooltips="true" notSupportedModTooltips="true" showThousandsSeparators="true" POESESSID="" showFlavourText="true" showAnimations="true"/>
 </PathOfBuilding2>
