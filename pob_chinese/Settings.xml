@@ -113,6 +113,21 @@ Implicits: 3
 		</Item>
 		<Item>
 			Rarity: RARE
+Storm Hold
+Prismatic Ring
+Unique ID: aca6cf8ac7dd38a8ae05a8c47587d58f964b9ab9029ac7d31f149c79586f5700
+Item Level: 82
+LevelReq: 35
+Implicits: 1
++10% to all Elemental Resistances
+{desecrated}20% increased Spell Damage while on Full Energy Shield
++190 to maximum Mana
+36% increased Rarity of Items found
+18% increased Cast Speed
++33% to Fire Resistance
+		</Item>
+		<Item>
+			Rarity: RARE
 1400D
 Dueling Wand
 Crafted: true
@@ -170,6 +185,85 @@ Gain 25% of Damage as Extra Lightning Damage
 +6 to Level of all Cold Spell Skills
 59% increased Critical Hit Chance for Spells
 36% increased Critical Spell Damage Bonus
+		</Item>
+		<Item>
+			Rarity: RARE
+Storm Hold
+Prismatic Ring
+Unique ID: aca6cf8ac7dd38a8ae05a8c47587d58f964b9ab9029ac7d31f149c79586f5700
+Item Level: 82
+LevelReq: 35
+Implicits: 1
++10% to all Elemental Resistances
+{desecrated}20% increased Spell Damage while on Full Energy Shield
++190 to maximum Mana
+36% increased Rarity of Items found
+18% increased Cast Speed
++33% to Fire Resistance
+		</Item>
+		<Item>
+			Rarity: RARE
+Wrath Circle
+Gold Ring
+Unique ID: af49c4300fa6dade3501d3ab5879db7f69a5a0bad2c9f56e6bc38778fa2e4288
+Item Level: 80
+LevelReq: 40
+Implicits: 1
+13% increased Rarity of Items found
+{desecrated}20% increased Spell Damage while on Full Energy Shield
++174 to maximum Mana
+37% increased Rarity of Items found
+24% increased Cast Speed
++35% to Cold Resistance
+		</Item>
+		<Item>
+			Rarity: RARE
+Loath Star
+Time-Lost Sapphire
+Unique ID: 2bd042691169dceb4ae1b6a86fbfaae6a3faa065f990c969bdc6cedb37a50325
+Item Level: 80
+LevelReq: 0
+Radius: Large
+Implicits: 0
+{fractured}Upgrades Radius to Large
+{desecrated}Notable Passive Skills in Radius also grant 1% increased maximum Mana
+Notable Passive Skills in Radius also grant 10% increased Critical Damage Bonus
+Notable Passive Skills in Radius also grant 10% increased Critical Spell Damage Bonus
+		</Item>
+		<Item>
+			Rarity: RARE
+Storm Band
+Gold Ring
+Unique ID: 2a3398614cca99fbec282057c584b0769c1a8a43f3ffa69df0c0b9f179fb566d
+Item Level: 80
+LevelReq: 40
+Implicits: 2
+15% increased Rarity of Items found
+18% increased Critical Damage Bonus
+{fractured}+16% to all Elemental Resistances
+{desecrated}19% increased Rarity of Items found
++211 to maximum Mana
+7% increased maximum Mana
+17% increased Rarity of Items found
++23% to Chaos Resistance
+Corrupted
+		</Item>
+		<Item>
+			Rarity: RARE
+Maelstrom Collar
+Solar Amulet
+Unique ID: 3625d67b9a2140d23a9bd1cb170eaf43f7a0d5343fea9f3d7c8fea1c4f109626
+Item Level: 81
+LevelReq: 30
+Implicits: 2
++12 to Spirit
+Allocates Fast Metabolism
+{fractured}+50 to Spirit
+{desecrated}8% increased maximum Mana
++249 to maximum Mana
+15% increased Rarity of Items found
++4 to Level of all Spell Skills
++41% to Lightning Resistance
 		</Item>
 		<ItemSet title="PLANTS双持">
 			<Item slotName="Weapon 1">
@@ -362,6 +456,17 @@ Implicits: 1
 24% increased Cast Speed
 +35% to Cold Resistance
 			</Item>
+			<Item slotName="Flask 1">
+				Rarity: MAGIC
+Hearty Ultimate Life Flask of the Copious
+Unique ID: 9144e98824d00215a651dbdf6fe4a40d18e94fdde450806f3de89af6dee51f26
+Item Level: 65
+Quality: 7
+LevelReq: 60
+Implicits: 0
+54% increased Recovery rate
+38% increased Charges
+			</Item>
 			<Item slotName="Belt">
 				Rarity: UNIQUE
 Headhunter
@@ -380,17 +485,6 @@ Has 2 Charm Slots
 When you kill a Rare monster, you gain its Modifiers for 60 seconds
 Corrupted
 			</Item>
-			<Item slotName="Flask 2">
-				Rarity: MAGIC
-Concentrated Ultimate Mana Flask of the Brewer
-Unique ID: 6dd6cb509335711c5ea45c603819c4a7d6eb44de17c5cda744ebda483e83734b
-Item Level: 79
-Quality: 22
-LevelReq: 60
-Implicits: 0
-69% increased Amount Recovered
-29% reduced Charges per use
-			</Item>
 			<Item slotName="Charm 2">
 				Rarity: UNIQUE
 The Fall of the Axe
@@ -404,6 +498,17 @@ Used when you are affected by a Slow
 Grants Onslaught during effect
 Corrupted
 			</Item>
+			<Item slotName="Flask 2">
+				Rarity: MAGIC
+Concentrated Ultimate Mana Flask of the Brewer
+Unique ID: 6dd6cb509335711c5ea45c603819c4a7d6eb44de17c5cda744ebda483e83734b
+Item Level: 79
+Quality: 22
+LevelReq: 60
+Implicits: 0
+69% increased Amount Recovered
+29% reduced Charges per use
+			</Item>
 			<Item slotName="Charm 3">
 				Rarity: MAGIC
 Lustrous Stone Charm of the Sylvan
@@ -415,17 +520,6 @@ Implicits: 1
 Used when you become Stunned
 Gains 0.25 Charges per Second
 Also grants 304 Guard
-			</Item>
-			<Item slotName="Flask 1">
-				Rarity: MAGIC
-Hearty Ultimate Life Flask of the Copious
-Unique ID: 9144e98824d00215a651dbdf6fe4a40d18e94fdde450806f3de89af6dee51f26
-Item Level: 65
-Quality: 7
-LevelReq: 60
-Implicits: 0
-54% increased Recovery rate
-38% increased Charges
 			</Item>
 			<Item slotName="Charm 1">
 				Rarity: UNIQUE
@@ -441,5 +535,5 @@ Possessed by Spirit Of The Boar for 17 seconds on use
 			</Item>
 		</ItemSet>
 	</SharedItems>
-	<Misc colorNegative="^xDD0022" colorHighlight="^xFF0000" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" lastExportWebsite="PoeNinja" decimalSeparator="." connectionProtocol="nil" showTitlebarName="true" dpiScaleOverridePercent="0" showWarnings="true" slotOnlyTooltips="true" notSupportedModTooltips="true" disableDevAutoSave="false" POESESSID="" showFlavourText="true" showAnimations="true" showAllItemAffixes="true" invertSliderScrollDirection="false" defaultItemAffixQuality="0.5" showThousandsSeparators="true" buildSortMode="NAME" thousandsSeparator="," nodePowerTheme="RED/BLUE" edgeSearchHighlight="true" colorPositive="^x33FF77"/>
+	<Misc colorPositive="^x33FF77" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" colorHighlight="^xFF0000" invertSliderScrollDirection="false" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," decimalSeparator="." defaultItemAffixQuality="0.5" showTitlebarName="true" dpiScaleOverridePercent="0" connectionProtocol="nil" notSupportedModTooltips="true" slotOnlyTooltips="true" disableDevAutoSave="false" POESESSID="" showFlavourText="true" showAnimations="true" showAllItemAffixes="true" showWarnings="true" lastExportWebsite="PoeNinja" nodePowerTheme="RED/BLUE" buildSortMode="NAME" colorNegative="^xDD0022"/>
 </PathOfBuilding2>
