@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding2>
-	<Mode mode="BUILD">
-		<Arg string="F:/Coding/POB/pob_chinese/Builds/Druid COC 自用.xml"/>
+	<Mode mode="LIST">
 		<Arg string="Druid COC 自用"/>
+		<Arg string=""/>
 	</Mode>
 	<Accounts tokenExpiry="nil"/>
 	<SharedItems>
@@ -265,7 +265,32 @@ Allocates Fast Metabolism
 +4 to Level of all Spell Skills
 +41% to Lightning Resistance
 		</Item>
+		<Item>
+			Rarity: RARE
+Loath Star
+Time-Lost Sapphire
+Unique ID: 2bd042691169dceb4ae1b6a86fbfaae6a3faa065f990c969bdc6cedb37a50325
+Item Level: 80
+LevelReq: 0
+Radius: Large
+Implicits: 0
+{fractured}Upgrades Radius to Large
+{desecrated}Notable Passive Skills in Radius also grant 1% increased maximum Mana
+Notable Passive Skills in Radius also grant 10% increased Critical Damage Bonus
+Notable Passive Skills in Radius also grant 10% increased Critical Spell Damage Bonus
+		</Item>
 		<ItemSet title="PLANTS双持">
+			<Item slotName="Flask 1">
+				Rarity: MAGIC
+Hearty Ultimate Life Flask of the Copious
+Unique ID: 9144e98824d00215a651dbdf6fe4a40d18e94fdde450806f3de89af6dee51f26
+Item Level: 65
+Quality: 7
+LevelReq: 60
+Implicits: 0
+54% increased Recovery rate
+38% increased Charges
+			</Item>
 			<Item slotName="Weapon 1">
 				Rarity: RARE
 Dragon Thirst
@@ -357,27 +382,17 @@ Allies in your Presence have +16% to all Elemental Resistances
 +29 to Intelligence
 Corrupted
 			</Item>
-			<Item slotName="Body Armour">
+			<Item slotName="Charm 2">
 				Rarity: UNIQUE
-The Covenant
-Altar Robe
-Energy Shield: 225
-Unique ID: 89b3caf0b101baaafd24dd1fa6ec5de2b433113ff5393ea39e890540276b2951
+The Fall of the Axe
+Silver Charm
+Unique ID: 400a25739e09a35b0bb3b201a92ca6b83eb25ebb6b72b8be0fc0c930a5701207
 Item Level: 82
-Quality: 20
-Sockets: S S S
-Rune: Rabbit Idol
-Rune: Rabbit Idol
-Rune: Rabbit Idol
-LevelReq: 84
-Implicits: 3
-{enchant}{rune}15% increased Rarity of Items found
-{enchant}{rune}Bonded: 15% increased Quantity of Gold Dropped by Slain Enemies
-Grants Skill: Level 19 Life Remnants
-111% increased Energy Shield
-10% of Spell Damage Leeched as Life
-{mutated}Regenerate 2.2% of maximum Life per second
-{mutated}47% increased Life Cost Efficiency
+Quality: 9
+LevelReq: 10
+Implicits: 1
+Used when you are affected by a Slow
+Grants Onslaught during effect
 Corrupted
 			</Item>
 			<Item slotName="Gloves">
@@ -456,16 +471,63 @@ Implicits: 1
 24% increased Cast Speed
 +35% to Cold Resistance
 			</Item>
-			<Item slotName="Flask 1">
+			<Item slotName="Body Armour">
+				Rarity: UNIQUE
+The Covenant
+Altar Robe
+Energy Shield: 225
+Unique ID: 89b3caf0b101baaafd24dd1fa6ec5de2b433113ff5393ea39e890540276b2951
+Item Level: 82
+Quality: 20
+Sockets: S S S
+Rune: Rabbit Idol
+Rune: Rabbit Idol
+Rune: Rabbit Idol
+LevelReq: 84
+Implicits: 3
+{enchant}{rune}15% increased Rarity of Items found
+{enchant}{rune}Bonded: 15% increased Quantity of Gold Dropped by Slain Enemies
+Grants Skill: Level 19 Life Remnants
+111% increased Energy Shield
+10% of Spell Damage Leeched as Life
+{mutated}Regenerate 2.2% of maximum Life per second
+{mutated}47% increased Life Cost Efficiency
+Corrupted
+			</Item>
+			<Item slotName="Flask 2">
 				Rarity: MAGIC
-Hearty Ultimate Life Flask of the Copious
-Unique ID: 9144e98824d00215a651dbdf6fe4a40d18e94fdde450806f3de89af6dee51f26
-Item Level: 65
-Quality: 7
+Concentrated Ultimate Mana Flask of the Brewer
+Unique ID: 6dd6cb509335711c5ea45c603819c4a7d6eb44de17c5cda744ebda483e83734b
+Item Level: 79
+Quality: 22
 LevelReq: 60
 Implicits: 0
-54% increased Recovery rate
-38% increased Charges
+69% increased Amount Recovered
+29% reduced Charges per use
+			</Item>
+			<Item slotName="Charm 1">
+				Rarity: UNIQUE
+Rite of Passage
+Golden Charm
+Unique ID: c0dcb3bf962d2069afb050832717d9f7d5fa64ec73dfca11eeed8e6552949120
+Item Level: 80
+Quality: 0
+LevelReq: 50
+Implicits: 1
+Used when you kill a Rare or Unique enemy
+Possessed by Spirit Of The Boar for 17 seconds on use
+			</Item>
+			<Item slotName="Charm 3">
+				Rarity: MAGIC
+Lustrous Stone Charm of the Sylvan
+Unique ID: 513dca78fea93a7b7cdb8624869da6ca491d76b8d15931bd919bebae517826e8
+Item Level: 68
+Quality: 0
+LevelReq: 8
+Implicits: 1
+Used when you become Stunned
+Gains 0.25 Charges per Second
+Also grants 304 Guard
 			</Item>
 			<Item slotName="Belt">
 				Rarity: UNIQUE
@@ -485,55 +547,7 @@ Has 2 Charm Slots
 When you kill a Rare monster, you gain its Modifiers for 60 seconds
 Corrupted
 			</Item>
-			<Item slotName="Charm 2">
-				Rarity: UNIQUE
-The Fall of the Axe
-Silver Charm
-Unique ID: 400a25739e09a35b0bb3b201a92ca6b83eb25ebb6b72b8be0fc0c930a5701207
-Item Level: 82
-Quality: 9
-LevelReq: 10
-Implicits: 1
-Used when you are affected by a Slow
-Grants Onslaught during effect
-Corrupted
-			</Item>
-			<Item slotName="Flask 2">
-				Rarity: MAGIC
-Concentrated Ultimate Mana Flask of the Brewer
-Unique ID: 6dd6cb509335711c5ea45c603819c4a7d6eb44de17c5cda744ebda483e83734b
-Item Level: 79
-Quality: 22
-LevelReq: 60
-Implicits: 0
-69% increased Amount Recovered
-29% reduced Charges per use
-			</Item>
-			<Item slotName="Charm 3">
-				Rarity: MAGIC
-Lustrous Stone Charm of the Sylvan
-Unique ID: 513dca78fea93a7b7cdb8624869da6ca491d76b8d15931bd919bebae517826e8
-Item Level: 68
-Quality: 0
-LevelReq: 8
-Implicits: 1
-Used when you become Stunned
-Gains 0.25 Charges per Second
-Also grants 304 Guard
-			</Item>
-			<Item slotName="Charm 1">
-				Rarity: UNIQUE
-Rite of Passage
-Golden Charm
-Unique ID: c0dcb3bf962d2069afb050832717d9f7d5fa64ec73dfca11eeed8e6552949120
-Item Level: 80
-Quality: 0
-LevelReq: 50
-Implicits: 1
-Used when you kill a Rare or Unique enemy
-Possessed by Spirit Of The Boar for 17 seconds on use
-			</Item>
 		</ItemSet>
 	</SharedItems>
-	<Misc colorPositive="^x33FF77" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" colorHighlight="^xFF0000" invertSliderScrollDirection="false" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," decimalSeparator="." defaultItemAffixQuality="0.5" showTitlebarName="true" dpiScaleOverridePercent="0" connectionProtocol="nil" notSupportedModTooltips="true" slotOnlyTooltips="true" disableDevAutoSave="false" POESESSID="" showFlavourText="true" showAnimations="true" showAllItemAffixes="true" showWarnings="true" lastExportWebsite="PoeNinja" nodePowerTheme="RED/BLUE" buildSortMode="NAME" colorNegative="^xDD0022"/>
+	<Misc colorHighlight="^xFF0000" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," decimalSeparator="." connectionProtocol="nil" defaultItemQuality="20" dpiScaleOverridePercent="0" showWarnings="true" slotOnlyTooltips="true" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" lastExportWebsite="PoeNinja" invertSliderScrollDirection="false" disableDevAutoSave="false" showAllItemAffixes="true" showAnimations="true" buildSortMode="NAME" showFlavourText="true" nodePowerTheme="RED/BLUE" POESESSID="" colorPositive="^x33FF77" notSupportedModTooltips="true" defaultItemAffixQuality="0.5" colorNegative="^xDD0022" showTitlebarName="true"/>
 </PathOfBuilding2>
