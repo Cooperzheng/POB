@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding2>
-	<Mode mode="LIST">
-		<Arg string="Druid COC 自用"/>
-		<Arg string=""/>
+	<Mode mode="BUILD">
+		<Arg string="D:/Git/POB/pob_chinese/Builds/神谕COC-超高面板.xml"/>
+		<Arg string="神谕COC-超高面板"/>
 	</Mode>
 	<Accounts tokenExpiry="nil"/>
 	<SharedItems>
@@ -279,28 +279,113 @@ Implicits: 0
 Notable Passive Skills in Radius also grant 10% increased Critical Damage Bonus
 Notable Passive Skills in Radius also grant 10% increased Critical Spell Damage Bonus
 		</Item>
-		<ItemSet title="PLANTS双持">
-			<Item slotName="Flask 1">
-				Rarity: MAGIC
-Hearty Ultimate Life Flask of the Copious
-Unique ID: 9144e98824d00215a651dbdf6fe4a40d18e94fdde450806f3de89af6dee51f26
-Item Level: 65
-Quality: 7
-LevelReq: 60
+		<Item>
+			Rarity: RARE
+Glyph Star
+Time-Lost Sapphire
+Unique ID: b29a724b9b568f27284c2fa5e39338f180c8d3d7af92045d595ac6bfea6dfc61
+Item Level: 80
+LevelReq: 0
+Radius: Large
 Implicits: 0
-54% increased Recovery rate
-38% increased Charges
-			</Item>
-			<Item slotName="Weapon 1">
-				Rarity: RARE
-Dragon Thirst
-Dueling Wand
-Unique ID: dd62d16fe4a415de2102fd80e41b85ef89ccdaedb49d7e6d004e4e3280177433
+{fractured}Notable Passive Skills in Radius also grant 10% increased Critical Spell Damage Bonus
+{desecrated}Notable Passive Skills in Radius also grant 1% increased maximum Mana
+Upgrades Radius to Large
+Notable Passive Skills in Radius also grant 10% increased Critical Damage Bonus
+Small Passive Skills in Radius also grant Damage Penetrates 2% Cold Resistance
+Corrupted
+		</Item>
+		<Item>
+			Rarity: RARE
+Soul Drop
+Sapphire
+Unique ID: c702229b9b63ab3df91cfe6fb161354c994cb4221ad411748f6479418e4aa743
+Item Level: 77
+LevelReq: 0
+Implicits: 0
+{desecrated}12% increased Spell Damage
+{desecrated}19% increased Critical Damage Bonus
+{desecrated}19% increased Critical Spell Damage Bonus
+{desecrated}8% increased Elemental Damage
+Corrupted
+		</Item>
+		<Item>
+			Rarity: RARE
+Ghoul Ornament
+Time-Lost Sapphire
+Unique ID: f5e8187b2c1bdb90e2632fb4b94194ada86eb177cf1a9830cb221412361d93b8
+Item Level: 80
+LevelReq: 0
+Radius: Large
+Implicits: 0
+{fractured}Upgrades Radius to Large
+{desecrated}Notable Passive Skills in Radius also grant 1% increased maximum Mana
+Notable Passive Skills in Radius also grant 10% increased Critical Damage Bonus
+Notable Passive Skills in Radius also grant 10% increased Critical Spell Damage Bonus
+Notable Passive Skills in Radius also grant Debuffs on you expire 3% faster
+Corrupted
+		</Item>
+		<Item>
+			Rarity: RARE
+Glyph Ruin
+Time-Lost Sapphire
+Unique ID: f39670448b9626372496fa8b01ad11df18ff4a561caa73d2f88db02780f5a725
+Item Level: 80
+LevelReq: 0
+Radius: Large
+Implicits: 0
+{fractured}Notable Passive Skills in Radius also grant 10% increased Critical Damage Bonus
+{desecrated}Notable Passive Skills in Radius also grant 1% increased maximum Mana
+Notable Passive Skills in Radius also grant 10% increased Critical Spell Damage Bonus
+Upgrades Radius to Large
+Small Passive Skills in Radius also grant 2% increased Shock Duration
+Corrupted
+		</Item>
+		<Item>
+			Rarity: UNIQUE
+Rathpith Globe
+Sacred Focus
+Energy Shield: 90
+Unique ID: c502e6a15226e6f8144dda686e4c691c9364a817390e5a7cd143db364b58c69d
 Item Level: 81
 Quality: 20
+Sockets: S
+Rune: Greater Body Rune
+LevelReq: 75
+Implicits: 3
+{enchant}{rune}+40 to maximum Life
+{enchant}{rune}Bonded: +10 to maximum Life
+{enchant}{rune}Bonded: +10 to maximum Mana
+Non-Channelling Spells cost an additional 5% of your maximum Life
+Non-Channelling Spells have 3% increased Critical Hit Chance per 100 maximum Life
+Non-Channelling Spells deal 6% increased Damage per 100 maximum Life
+{mutated}Non-Channelling Spells have 3% increased Critical Hit Chance per 100 maximum Mana
+{mutated}Non-Channelling Spells deal 6% increased Damage per 100 maximum Mana
+Corrupted
+		</Item>
+		<Item>
+			Rarity: UNIQUE
+The Adorned
+Diamond
+Unique ID: 8180074439c35493797d47196a862efaaab0571fd8b72a237b85284ada049612
+Item Level: 82
+LevelReq: 0
+Implicits: 0
+{mutated}Minions deal 14% reduced Damage
+{mutated}33% increased Effect of Jewel Socket Passive Skills
+containing Corrupted Rare Jewels
+Corrupted
+		</Item>
+		<Item>
+			Rarity: RARE
+Cataclysm Scratch
+Dueling Wand
+Unique ID: cd2e25a16e26e326d548efe08d67d1120bcebd5deb52285bad5e83f929d12ea7
+Item Level: 80
+Quality: 20
 Sockets: S S
-Rune: Hedgewitch Assandra&apos;s Rune of Wisdom
 Rune: Saqawal&apos;s Rune of the Sky
+Rune: Hedgewitch Assandra&apos;s Rune of Wisdom
 LevelReq: 78
 Implicits: 6
 {enchant}{rune}+1 to Level of all Spell Skills
@@ -309,90 +394,35 @@ Implicits: 6
 {enchant}{rune}additional Elemental Infusion of the same type
 {enchant}{rune}Bonded: Archon recovery period expires 30% faster
 Grants Skill: Level 18 Spellslinger
-{fractured}+5 to Level of all Cold Spell Skills
-{desecrated}89% increased Elemental Damage
-Gain 25% of Damage as Extra Fire Damage
-97% increased Spell Damage
-53% increased Critical Hit Chance for Spells
-23% increased Cast Speed
-Corrupted
-			</Item>
-			<Item slotName="Amulet">
-				Rarity: RARE
-Brood Choker
-Gold Amulet
-Unique ID: 401d560ae0076cf94b89fa74ff6f777c00237f2af7ef823aaa617a32f0fe26c5
-Item Level: 79
-LevelReq: 35
-Implicits: 2
-19% increased Rarity of Items found
-Allocates Energise
-{fractured}+3 to Level of all Spell Skills
-{desecrated}+16% to Lightning and Chaos Resistances
-8% increased maximum Mana
-+46 to Spirit
-16% increased Rarity of Items found
-+39% to Fire Resistance
-			</Item>
-			<Item slotName="Helmet">
+{fractured}118% increased Spell Damage
+{desecrated}39% increased Critical Hit Chance for Spells
+Gain 28% of Damage as Extra Fire Damage
+Gain 33% of Damage as Extra Cold Damage
++5 to Level of all Spell Skills
+24% increased Cast Speed
+		</Item>
+		<ItemSet title="PLANTS双持">
+			<Item slotName="Body Armour">
 				Rarity: UNIQUE
-The Vertex
-Tribal Mask
-Evasion: 79
-Energy Shield: 34
-Unique ID: 4b672c3e083bd8cbbf2eb9588dcd80317afa07253239dcff14d8f3f3f8d13d5c
-Item Level: 81
-Quality: 20
-Sockets: S S
-Rune: Soul Core of Zalatl
-Rune: Soul Core of Zalatl
-LevelReq: 33
-Implicits: 1
-{enchant}{rune}6% increased maximum Mana
-Has no Attribute Requirements
-24% increased Critical Hit Chance
-+16% to Chaos Resistance
-{mutated}8% increased Attributes
-{mutated}+3 to Level of all Skills
-Corrupted
-			</Item>
-			<Item slotName="Weapon 2">
-				Rarity: RARE
-Soul Chant
-Shrine Sceptre
-Spirit: 204
-Unique ID: bdb2c22dac1f394c33b0cb99dca44b7c590454473c80da9c39cccc83a1b8b85c
-Item Level: 80
+The Covenant
+Altar Robe
+Energy Shield: 225
+Unique ID: 89b3caf0b101baaafd24dd1fa6ec5de2b433113ff5393ea39e890540276b2951
+Item Level: 82
 Quality: 20
 Sockets: S S S
 Rune: Rabbit Idol
 Rune: Rabbit Idol
 Rune: Rabbit Idol
-LevelReq: 78
+LevelReq: 84
 Implicits: 3
-{enchant}{rune}30% increased Spirit
-{enchant}{rune}Bonded: Minions have 90% increased Cooldown Recovery Rate for Command Skills
-Grants Skill: Level 18 Purity of Lightning
-{fractured}+161 to maximum Mana
-{desecrated}19% increased Spirit
-{desecrated}+26 to maximum Mana
-55% increased Spirit
-Allies in your Presence have 18% increased Cast Speed
-Allies in your Presence have +16% to all Elemental Resistances
-+29 to Intelligence
-Corrupted
-			</Item>
-			<Item slotName="Charm 2">
-				Rarity: UNIQUE
-The Fall of the Axe
-Silver Charm
-Unique ID: 400a25739e09a35b0bb3b201a92ca6b83eb25ebb6b72b8be0fc0c930a5701207
-Item Level: 82
-Quality: 9
-LevelReq: 10
-Implicits: 1
-Used when you are affected by a Slow
-Grants Onslaught during effect
+{enchant}{rune}15% increased Rarity of Items found
+{enchant}{rune}Bonded: 15% increased Quantity of Gold Dropped by Slain Enemies
+Grants Skill: Level 19 Life Remnants
+111% increased Energy Shield
+10% of Spell Damage Leeched as Life
+{mutated}Regenerate 2.2% of maximum Life per second
+{mutated}47% increased Life Cost Efficiency
 Corrupted
 			</Item>
 			<Item slotName="Gloves">
@@ -471,27 +501,54 @@ Implicits: 1
 24% increased Cast Speed
 +35% to Cold Resistance
 			</Item>
-			<Item slotName="Body Armour">
+			<Item slotName="Charm 2">
 				Rarity: UNIQUE
-The Covenant
-Altar Robe
-Energy Shield: 225
-Unique ID: 89b3caf0b101baaafd24dd1fa6ec5de2b433113ff5393ea39e890540276b2951
+The Fall of the Axe
+Silver Charm
+Unique ID: 400a25739e09a35b0bb3b201a92ca6b83eb25ebb6b72b8be0fc0c930a5701207
 Item Level: 82
+Quality: 9
+LevelReq: 10
+Implicits: 1
+Used when you are affected by a Slow
+Grants Onslaught during effect
+Corrupted
+			</Item>
+			<Item slotName="Flask 1">
+				Rarity: MAGIC
+Hearty Ultimate Life Flask of the Copious
+Unique ID: 9144e98824d00215a651dbdf6fe4a40d18e94fdde450806f3de89af6dee51f26
+Item Level: 65
+Quality: 7
+LevelReq: 60
+Implicits: 0
+54% increased Recovery rate
+38% increased Charges
+			</Item>
+			<Item slotName="Weapon 2">
+				Rarity: RARE
+Soul Chant
+Shrine Sceptre
+Spirit: 204
+Unique ID: bdb2c22dac1f394c33b0cb99dca44b7c590454473c80da9c39cccc83a1b8b85c
+Item Level: 80
 Quality: 20
 Sockets: S S S
 Rune: Rabbit Idol
 Rune: Rabbit Idol
 Rune: Rabbit Idol
-LevelReq: 84
+LevelReq: 78
 Implicits: 3
-{enchant}{rune}15% increased Rarity of Items found
-{enchant}{rune}Bonded: 15% increased Quantity of Gold Dropped by Slain Enemies
-Grants Skill: Level 19 Life Remnants
-111% increased Energy Shield
-10% of Spell Damage Leeched as Life
-{mutated}Regenerate 2.2% of maximum Life per second
-{mutated}47% increased Life Cost Efficiency
+{enchant}{rune}30% increased Spirit
+{enchant}{rune}Bonded: Minions have 90% increased Cooldown Recovery Rate for Command Skills
+Grants Skill: Level 18 Purity of Lightning
+{fractured}+161 to maximum Mana
+{desecrated}19% increased Spirit
+{desecrated}+26 to maximum Mana
+55% increased Spirit
+Allies in your Presence have 18% increased Cast Speed
+Allies in your Presence have +16% to all Elemental Resistances
++29 to Intelligence
 Corrupted
 			</Item>
 			<Item slotName="Flask 2">
@@ -529,6 +586,71 @@ Used when you become Stunned
 Gains 0.25 Charges per Second
 Also grants 304 Guard
 			</Item>
+			<Item slotName="Weapon 1">
+				Rarity: RARE
+Dragon Thirst
+Dueling Wand
+Unique ID: dd62d16fe4a415de2102fd80e41b85ef89ccdaedb49d7e6d004e4e3280177433
+Item Level: 81
+Quality: 20
+Sockets: S S
+Rune: Hedgewitch Assandra&apos;s Rune of Wisdom
+Rune: Saqawal&apos;s Rune of the Sky
+LevelReq: 78
+Implicits: 6
+{enchant}{rune}+1 to Level of all Spell Skills
+{enchant}{rune}Gain 5% of Damage as Extra Damage of all Elements
+{enchant}{rune}Bonded: 12% chance when collecting an Elemental Infusion to gain an
+{enchant}{rune}additional Elemental Infusion of the same type
+{enchant}{rune}Bonded: Archon recovery period expires 30% faster
+Grants Skill: Level 18 Spellslinger
+{fractured}+5 to Level of all Cold Spell Skills
+{desecrated}89% increased Elemental Damage
+Gain 25% of Damage as Extra Fire Damage
+97% increased Spell Damage
+53% increased Critical Hit Chance for Spells
+23% increased Cast Speed
+Corrupted
+			</Item>
+			<Item slotName="Amulet">
+				Rarity: RARE
+Brood Choker
+Gold Amulet
+Unique ID: 401d560ae0076cf94b89fa74ff6f777c00237f2af7ef823aaa617a32f0fe26c5
+Item Level: 79
+LevelReq: 35
+Implicits: 2
+19% increased Rarity of Items found
+Allocates Energise
+{fractured}+3 to Level of all Spell Skills
+{desecrated}+16% to Lightning and Chaos Resistances
+8% increased maximum Mana
++46 to Spirit
+16% increased Rarity of Items found
++39% to Fire Resistance
+			</Item>
+			<Item slotName="Helmet">
+				Rarity: UNIQUE
+The Vertex
+Tribal Mask
+Evasion: 79
+Energy Shield: 34
+Unique ID: 4b672c3e083bd8cbbf2eb9588dcd80317afa07253239dcff14d8f3f3f8d13d5c
+Item Level: 81
+Quality: 20
+Sockets: S S
+Rune: Soul Core of Zalatl
+Rune: Soul Core of Zalatl
+LevelReq: 33
+Implicits: 1
+{enchant}{rune}6% increased maximum Mana
+Has no Attribute Requirements
+24% increased Critical Hit Chance
++16% to Chaos Resistance
+{mutated}8% increased Attributes
+{mutated}+3 to Level of all Skills
+Corrupted
+			</Item>
 			<Item slotName="Belt">
 				Rarity: UNIQUE
 Headhunter
@@ -549,5 +671,5 @@ Corrupted
 			</Item>
 		</ItemSet>
 	</SharedItems>
-	<Misc colorHighlight="^xFF0000" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," decimalSeparator="." connectionProtocol="nil" defaultItemQuality="20" dpiScaleOverridePercent="0" showWarnings="true" slotOnlyTooltips="true" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" lastExportWebsite="PoeNinja" invertSliderScrollDirection="false" disableDevAutoSave="false" showAllItemAffixes="true" showAnimations="true" buildSortMode="NAME" showFlavourText="true" nodePowerTheme="RED/BLUE" POESESSID="" colorPositive="^x33FF77" notSupportedModTooltips="true" defaultItemAffixQuality="0.5" colorNegative="^xDD0022" showTitlebarName="true"/>
+	<Misc slotOnlyTooltips="true" connectionProtocol="nil" POESESSID="" showFlavourText="true" showAnimations="true" buildSortMode="NAME" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" colorPositive="^x33FF77" invertSliderScrollDirection="false" disableDevAutoSave="false" colorNegative="^xDD0022" lastExportWebsite="PoeNinja" colorHighlight="^xFF0000" showAllItemAffixes="true" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," notSupportedModTooltips="true" decimalSeparator="." nodePowerTheme="RED/BLUE" defaultItemAffixQuality="0.5" defaultItemQuality="20" showTitlebarName="true" dpiScaleOverridePercent="0" showWarnings="true"/>
 </PathOfBuilding2>
