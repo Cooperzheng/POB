@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding2>
 	<Mode mode="BUILD">
-		<Arg string="D:/Git/POB/pob_chinese/Builds/神谕COC-超高面板.xml"/>
-		<Arg string="神谕COC-超高面板"/>
+		<Arg string="F:/Coding/POB/pob_chinese/Builds/Druid COC 自用.xml"/>
+		<Arg string="Druid COC 自用"/>
 	</Mode>
 	<Accounts tokenExpiry="nil"/>
 	<SharedItems>
@@ -402,6 +402,135 @@ Gain 33% of Damage as Extra Cold Damage
 24% increased Cast Speed
 		</Item>
 		<ItemSet title="PLANTS双持">
+			<Item slotName="Belt">
+				Rarity: UNIQUE
+Headhunter
+Heavy Belt
+Charm Slots: 2
+Unique ID: 1023b4d280f4afe6eac196d28b0e5e5dc884430d8697619ba80d4bf4339b05df
+Item Level: 82
+LevelReq: 50
+Implicits: 3
+25% increased Stun Threshold
+Has 2 Charm Slots
++25% to Fire Resistance
++44 to maximum Life
++22 to Strength
++32 to Dexterity
+When you kill a Rare monster, you gain its Modifiers for 60 seconds
+Corrupted
+			</Item>
+			<Item slotName="Charm 2">
+				Rarity: UNIQUE
+The Fall of the Axe
+Silver Charm
+Unique ID: 400a25739e09a35b0bb3b201a92ca6b83eb25ebb6b72b8be0fc0c930a5701207
+Item Level: 82
+Quality: 9
+LevelReq: 10
+Implicits: 1
+Used when you are affected by a Slow
+Grants Onslaught during effect
+Corrupted
+			</Item>
+			<Item slotName="Charm 1">
+				Rarity: UNIQUE
+Rite of Passage
+Golden Charm
+Unique ID: c0dcb3bf962d2069afb050832717d9f7d5fa64ec73dfca11eeed8e6552949120
+Item Level: 80
+Quality: 0
+LevelReq: 50
+Implicits: 1
+Used when you kill a Rare or Unique enemy
+Possessed by Spirit Of The Boar for 17 seconds on use
+			</Item>
+			<Item slotName="Weapon 1">
+				Rarity: RARE
+Dragon Thirst
+Dueling Wand
+Unique ID: dd62d16fe4a415de2102fd80e41b85ef89ccdaedb49d7e6d004e4e3280177433
+Item Level: 81
+Quality: 20
+Sockets: S S
+Rune: Hedgewitch Assandra&apos;s Rune of Wisdom
+Rune: Saqawal&apos;s Rune of the Sky
+LevelReq: 78
+Implicits: 6
+{enchant}{rune}+1 to Level of all Spell Skills
+{enchant}{rune}Gain 5% of Damage as Extra Damage of all Elements
+{enchant}{rune}Bonded: 12% chance when collecting an Elemental Infusion to gain an
+{enchant}{rune}additional Elemental Infusion of the same type
+{enchant}{rune}Bonded: Archon recovery period expires 30% faster
+Grants Skill: Level 18 Spellslinger
+{fractured}+5 to Level of all Cold Spell Skills
+{desecrated}89% increased Elemental Damage
+Gain 25% of Damage as Extra Fire Damage
+97% increased Spell Damage
+53% increased Critical Hit Chance for Spells
+23% increased Cast Speed
+Corrupted
+			</Item>
+			<Item slotName="Charm 3">
+				Rarity: MAGIC
+Lustrous Stone Charm of the Sylvan
+Unique ID: 513dca78fea93a7b7cdb8624869da6ca491d76b8d15931bd919bebae517826e8
+Item Level: 68
+Quality: 0
+LevelReq: 8
+Implicits: 1
+Used when you become Stunned
+Gains 0.25 Charges per Second
+Also grants 304 Guard
+			</Item>
+			<Item slotName="Helmet">
+				Rarity: UNIQUE
+The Vertex
+Tribal Mask
+Evasion: 79
+Energy Shield: 34
+Unique ID: 4b672c3e083bd8cbbf2eb9588dcd80317afa07253239dcff14d8f3f3f8d13d5c
+Item Level: 81
+Quality: 20
+Sockets: S S
+Rune: Soul Core of Zalatl
+Rune: Soul Core of Zalatl
+LevelReq: 33
+Implicits: 1
+{enchant}{rune}6% increased maximum Mana
+Has no Attribute Requirements
+24% increased Critical Hit Chance
++16% to Chaos Resistance
+{mutated}8% increased Attributes
+{mutated}+3 to Level of all Skills
+Corrupted
+			</Item>
+			<Item slotName="Weapon 2">
+				Rarity: RARE
+Soul Chant
+Shrine Sceptre
+Spirit: 204
+Unique ID: bdb2c22dac1f394c33b0cb99dca44b7c590454473c80da9c39cccc83a1b8b85c
+Item Level: 80
+Quality: 20
+Sockets: S S S
+Rune: Rabbit Idol
+Rune: Rabbit Idol
+Rune: Rabbit Idol
+LevelReq: 78
+Implicits: 3
+{enchant}{rune}30% increased Spirit
+{enchant}{rune}Bonded: Minions have 90% increased Cooldown Recovery Rate for Command Skills
+Grants Skill: Level 18 Purity of Lightning
+{fractured}+161 to maximum Mana
+{desecrated}19% increased Spirit
+{desecrated}+26 to maximum Mana
+55% increased Spirit
+Allies in your Presence have 18% increased Cast Speed
+Allies in your Presence have +16% to all Elemental Resistances
++29 to Intelligence
+Corrupted
+			</Item>
 			<Item slotName="Body Armour">
 				Rarity: UNIQUE
 The Covenant
@@ -486,6 +615,17 @@ Implicits: 1
 18% increased Cast Speed
 +33% to Fire Resistance
 			</Item>
+			<Item slotName="Flask 1">
+				Rarity: MAGIC
+Hearty Ultimate Life Flask of the Copious
+Unique ID: 9144e98824d00215a651dbdf6fe4a40d18e94fdde450806f3de89af6dee51f26
+Item Level: 65
+Quality: 7
+LevelReq: 60
+Implicits: 0
+54% increased Recovery rate
+38% increased Charges
+			</Item>
 			<Item slotName="Ring 2">
 				Rarity: RARE
 Wrath Circle
@@ -501,56 +641,6 @@ Implicits: 1
 24% increased Cast Speed
 +35% to Cold Resistance
 			</Item>
-			<Item slotName="Charm 2">
-				Rarity: UNIQUE
-The Fall of the Axe
-Silver Charm
-Unique ID: 400a25739e09a35b0bb3b201a92ca6b83eb25ebb6b72b8be0fc0c930a5701207
-Item Level: 82
-Quality: 9
-LevelReq: 10
-Implicits: 1
-Used when you are affected by a Slow
-Grants Onslaught during effect
-Corrupted
-			</Item>
-			<Item slotName="Flask 1">
-				Rarity: MAGIC
-Hearty Ultimate Life Flask of the Copious
-Unique ID: 9144e98824d00215a651dbdf6fe4a40d18e94fdde450806f3de89af6dee51f26
-Item Level: 65
-Quality: 7
-LevelReq: 60
-Implicits: 0
-54% increased Recovery rate
-38% increased Charges
-			</Item>
-			<Item slotName="Weapon 2">
-				Rarity: RARE
-Soul Chant
-Shrine Sceptre
-Spirit: 204
-Unique ID: bdb2c22dac1f394c33b0cb99dca44b7c590454473c80da9c39cccc83a1b8b85c
-Item Level: 80
-Quality: 20
-Sockets: S S S
-Rune: Rabbit Idol
-Rune: Rabbit Idol
-Rune: Rabbit Idol
-LevelReq: 78
-Implicits: 3
-{enchant}{rune}30% increased Spirit
-{enchant}{rune}Bonded: Minions have 90% increased Cooldown Recovery Rate for Command Skills
-Grants Skill: Level 18 Purity of Lightning
-{fractured}+161 to maximum Mana
-{desecrated}19% increased Spirit
-{desecrated}+26 to maximum Mana
-55% increased Spirit
-Allies in your Presence have 18% increased Cast Speed
-Allies in your Presence have +16% to all Elemental Resistances
-+29 to Intelligence
-Corrupted
-			</Item>
 			<Item slotName="Flask 2">
 				Rarity: MAGIC
 Concentrated Ultimate Mana Flask of the Brewer
@@ -561,56 +651,6 @@ LevelReq: 60
 Implicits: 0
 69% increased Amount Recovered
 29% reduced Charges per use
-			</Item>
-			<Item slotName="Charm 1">
-				Rarity: UNIQUE
-Rite of Passage
-Golden Charm
-Unique ID: c0dcb3bf962d2069afb050832717d9f7d5fa64ec73dfca11eeed8e6552949120
-Item Level: 80
-Quality: 0
-LevelReq: 50
-Implicits: 1
-Used when you kill a Rare or Unique enemy
-Possessed by Spirit Of The Boar for 17 seconds on use
-			</Item>
-			<Item slotName="Charm 3">
-				Rarity: MAGIC
-Lustrous Stone Charm of the Sylvan
-Unique ID: 513dca78fea93a7b7cdb8624869da6ca491d76b8d15931bd919bebae517826e8
-Item Level: 68
-Quality: 0
-LevelReq: 8
-Implicits: 1
-Used when you become Stunned
-Gains 0.25 Charges per Second
-Also grants 304 Guard
-			</Item>
-			<Item slotName="Weapon 1">
-				Rarity: RARE
-Dragon Thirst
-Dueling Wand
-Unique ID: dd62d16fe4a415de2102fd80e41b85ef89ccdaedb49d7e6d004e4e3280177433
-Item Level: 81
-Quality: 20
-Sockets: S S
-Rune: Hedgewitch Assandra&apos;s Rune of Wisdom
-Rune: Saqawal&apos;s Rune of the Sky
-LevelReq: 78
-Implicits: 6
-{enchant}{rune}+1 to Level of all Spell Skills
-{enchant}{rune}Gain 5% of Damage as Extra Damage of all Elements
-{enchant}{rune}Bonded: 12% chance when collecting an Elemental Infusion to gain an
-{enchant}{rune}additional Elemental Infusion of the same type
-{enchant}{rune}Bonded: Archon recovery period expires 30% faster
-Grants Skill: Level 18 Spellslinger
-{fractured}+5 to Level of all Cold Spell Skills
-{desecrated}89% increased Elemental Damage
-Gain 25% of Damage as Extra Fire Damage
-97% increased Spell Damage
-53% increased Critical Hit Chance for Spells
-23% increased Cast Speed
-Corrupted
 			</Item>
 			<Item slotName="Amulet">
 				Rarity: RARE
@@ -629,47 +669,7 @@ Allocates Energise
 16% increased Rarity of Items found
 +39% to Fire Resistance
 			</Item>
-			<Item slotName="Helmet">
-				Rarity: UNIQUE
-The Vertex
-Tribal Mask
-Evasion: 79
-Energy Shield: 34
-Unique ID: 4b672c3e083bd8cbbf2eb9588dcd80317afa07253239dcff14d8f3f3f8d13d5c
-Item Level: 81
-Quality: 20
-Sockets: S S
-Rune: Soul Core of Zalatl
-Rune: Soul Core of Zalatl
-LevelReq: 33
-Implicits: 1
-{enchant}{rune}6% increased maximum Mana
-Has no Attribute Requirements
-24% increased Critical Hit Chance
-+16% to Chaos Resistance
-{mutated}8% increased Attributes
-{mutated}+3 to Level of all Skills
-Corrupted
-			</Item>
-			<Item slotName="Belt">
-				Rarity: UNIQUE
-Headhunter
-Heavy Belt
-Charm Slots: 2
-Unique ID: 1023b4d280f4afe6eac196d28b0e5e5dc884430d8697619ba80d4bf4339b05df
-Item Level: 82
-LevelReq: 50
-Implicits: 3
-25% increased Stun Threshold
-Has 2 Charm Slots
-+25% to Fire Resistance
-+44 to maximum Life
-+22 to Strength
-+32 to Dexterity
-When you kill a Rare monster, you gain its Modifiers for 60 seconds
-Corrupted
-			</Item>
 		</ItemSet>
 	</SharedItems>
-	<Misc slotOnlyTooltips="true" connectionProtocol="nil" POESESSID="" showFlavourText="true" showAnimations="true" buildSortMode="NAME" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" colorPositive="^x33FF77" invertSliderScrollDirection="false" disableDevAutoSave="false" colorNegative="^xDD0022" lastExportWebsite="PoeNinja" colorHighlight="^xFF0000" showAllItemAffixes="true" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," notSupportedModTooltips="true" decimalSeparator="." nodePowerTheme="RED/BLUE" defaultItemAffixQuality="0.5" defaultItemQuality="20" showTitlebarName="true" dpiScaleOverridePercent="0" showWarnings="true"/>
+	<Misc showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," decimalSeparator="." defaultItemAffixQuality="0.5" defaultItemQuality="20" showTitlebarName="true" dpiScaleOverridePercent="0" showWarnings="true" notSupportedModTooltips="true" showAllItemAffixes="true" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" lastExportWebsite="PoeNinja" invertSliderScrollDirection="false" disableDevAutoSave="false" buildSortMode="NAME" showAnimations="true" nodePowerTheme="RED/BLUE" colorPositive="^x33FF77" showFlavourText="true" POESESSID="" colorNegative="^xDD0022" slotOnlyTooltips="true" colorHighlight="^xFF0000" connectionProtocol="nil"/>
 </PathOfBuilding2>
